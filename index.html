@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<title>Guess What</title>
+		<meta charset = "UTF-8">
+	
+	</head>
+	
+	
+	<!--
+		NOTE:
+		===============================================================================================
+		
+		Because of simplicity & demonstration purposes, the "style" attribute is used within html tags.
+		Nevertheless it is recommended to use CSS for styling.
+		
+		In '<body>' the 'style="text-align:center;"' 
+		centers similar like the tag '<center>' which was used in the previous mini-projects.
+		
+		===============================================================================================
+	-->
+	
+	
+	<body style="text-align:center; margin-left:auto; margin-right:auto;">
+	
+		<section>
+		
+		
+			<!--INFO-->
+			<h2 style="margin-bottom:0px;">Info</h2>
+
+			<p style="border-style:outset; display:inline-block;">
+				(X + Y + Z) * n = R
+				<br>
+				X = 50
+				<br>
+				Y = 36
+				<br>
+				Z = 1
+				<br>
+				n = Randomly generated integer number between 1 and 5
+				<br>
+				R = Calculated result
+			</p>
+			
+			
+			<!--TASK-->
+			<h2 style="margin-bottom:0px;">Task</h2>
+			
+			<p style="border-style:outset; display:inline-block;">
+			
+				Guess which value (X, Y or Z) was not used within the formular
+				
+			</p>
+			
+			
+			<p id="calc-result" style="color:magenta; font-size:20px">
+			
+				Calculated Result
+				
+			</p>
+			
+			
+			<div style="font-size:20px">
+			
+				<hr width="20%">
+				
+				<input type="radio" name="property" onclick="checkGuess()">X 
+				<input type="radio" name="property" onclick="checkGuess()">Y 
+				<input type="radio" name="property" onclick="checkGuess()">Z 
+				
+				<hr width="20%">
+				
+			</div>
+			
+			
+		</section>
+	
+	
+	
+		<br>
+		<br>
+		<hr width="50%">
+		
+		<section>
+		
+			<br>
+			<br>
+			For more explanation please visit - 
+			<a href = "https://github.com/Incrementis/Javascript-operator-in-/wiki"> 
+			operator in Wiki</a>
+			
+		</section>
+		
+
+	</body>
+
+	
+	
+	<footer>
+	
+		<script language="javascript" type="text/javascript" src="in.js"></script>
+	
+	</footer>
+	 
+
+</html>
